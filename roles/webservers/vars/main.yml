@@ -1,1 +1,5 @@
-
+---
+user: www-data
+worker_processes: 2
+pid: /run/nginx.pid
+worker_connections: 768
